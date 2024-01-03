@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel", "py2app"]
+
+[project]
+name = "PomodoroChrono"
+version = "1.0.0"
+authors = [{ name = "Florent D" }]
+description = "A simple Pomodoro timer application"
+
+[tool.py2app]
+argv_emulation = true
